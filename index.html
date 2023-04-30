@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PoshVille | E-boutique Web Application</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!---<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">-->
+    <script src="https://kit.fontawesome.com/43124feaf5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+                <div class="logo">
+                  <a href="index.html">
+                    <img src="images/pv logo.jpg" width="80px">
+                  </a>
+                    
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a><li>
+                        <li><a href="products.html">Product</a><li>
+                        <li><a href="about.html">About</a><li>
+                        <li><a href="contact.html">Contact</a><li>
+                        <li><a href="account.html">Account</a><li>
+                         
+                    </ul>
+                </nav>
+                <a href="cart.html">
+                  <div class="cart">
+                    <i class="bi bi-cart2"></i>
+                    <div id="cartAmount" class="cartAmount">0</div>
+                  </div>
+                </a>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div> 
+    </div>
+    <div class="header">
+        <div class="container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <h1>Stay Unapologetically Stylish!</h1>
+                        <br>
+                        <p>Success isn't always about greatness. It's about consistency. Consistent <br>hard work gains success. Greatness will come</p>
+                        <a href="products.html" class="btn">Shop Now!!! &#8594;</a>
+                    </div>
+                    <div class="col-2">
+                        <img src="images/cart.png">
+                    </div>
+                </div>
+            </div> 
+        </div>    
+    </div>        
+    
+ <!---featured categories ---->
+    <div class="categories">
+        <div class="small-container">
+                <div class="row">
+                        <div class="col-3">
+                            <img src="images/category-1.jpg">
+                        </div>
+                        <div class="col-3">
+                            <img src="images/category-2.jpg">
+                        </div>
+                        <div class="col-3">
+                            <img src="images/category-3.jpg">
+                        </div>
+                    </div>
+        </div>
+    </div>
+        <!---featured products ---->
+        <div class="small-container">
+            <h2 class="title">Featured Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <a href="products.html"><img src="images/products/shirt1001.jpg"></a>
+                    <h4>Men’s Gucci Short-sleeve</h4>
+                    <p>#9,000</p>
+
+                </div>
+                <div class="col-4">
+                    <a href="products.html"><img src="images/products/pants2001.jpg"></a>
+                        <h4>Trendy Denim Pant</h4>
+                        <p>#16,500</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products.html"><img src="images/products/shoes3001.jpg"></a>
+                            <h4>Nike Air Sneakers</h4>
+                            <p>#20,000</p>
+                        </div>
+                        <div class="col-4">
+                            <a href="products.html"><img src="images/products/watch5001.jpg"></a>
+                                <h4>Patek Philippe Watch</h4>
+                                <p>#35,000</p>
+                            </div>
+            </div>
+            <h2 class="title">Latest Products</h2>
+                <div class="row">
+                    <div class="col-4">
+                        <a href="products.html"></a><img src="images/products/bpack6001.jpg"></a>
+                        <h4>Lacoste Backpack</h4>
+                        <p>#9,000</p>
+    
+                    </div>
+                    <div class="col-4">
+                        <a href="products.html"><img src="images/products/track7001.jpg"></a>
+                            <h4>Designer Track</h4>
+                            <p>#25,000</p>
+                        </div>
+                        <div class="col-4">
+                            <a href="products.html"> <img src="images/products/sweat4008.jpg"></a>
+                                <h4>Men’s Casual Bomber Jacket</h4>
+                                <p>#15,000</p>
+                            </div>
+                            <div class="col-4">
+                                <a href="products.html"><img src="images/products/shirt1008.jpg"></a>
+                                    <h4>Men’s Gucci Sleeveless Top</h4>
+                                    <p>#7,500</p>
+                                </div>
+                </div>
+                <div class="small-container">
+                    <div class="row">
+                        <div class="col-4">
+                            <a href="products.html"></a><img src="images/products/pants2002.jpg"></a>
+                            <h4>Unisex  Prada Swede Pant</h4>
+                            <p>#9,000</p>
+        
+                        </div>
+                        <div class="col-4">
+                            <a href="products.html"> <img src="images/products/sweat4005.jpg"></a>
+                                <h4>Sleeveless Sweater</h4>
+                                <p>#26,250</p>
+                            </div>
+                            <div class="col-4">
+                                <a href="products.html"><img src="images/products/shirt1005.jpg"></a>
+                                    <h4>Unisex Sweater</h4>
+                                    <p>#13,500</p>
+                                </div>
+                                <div class="col-4">
+                                    <a href="products.html"><img src="images/products/watch5004.jpg"></a>
+                                        <h4>Rolex watch - couple set</h4>
+                                        <p>$100.00</p>
+                                    </div>
+                    </div>
+        </div>
+    </div>
+<!---- offer ---->
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+            <img src="images/exclusive.png" class="offer-img">
+            </div>
+            <div class="col-2">
+                <p>Exclusively Avaliable on PoshVille</p>
+                <h1>Smart Band 4</h1>
+                <small> H1 Smart Band $ features a 39.95 larger than H1 Band 3. AMOLED color full-touvh display with adjustable brightness, so everything is clear as can be
+                </small>
+                <a href="products.html" class="btn">See More &#8594; </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!---testimonials-->
+<div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+        <i class="fa fa-quote-left"></i>
+                <p>I had a beautiful dress delivered to my doorstep within a week of purchasing online. So impressed with the effortless process of purchasing items through PoshVille Store, have loved every singlr item...this is my favourite "go to" fashion site.</p>
+                <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        </div>
+                    <img src="images/135.jpg" alt="">
+                    <h3>Amaka</h3>
+            </div>
+            <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                            <p>Product qaulity is top-notch. Delivery is fast.Customer service is AMAZING too. I honestly can't recommend them enough Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, iure cupiditate? Incidunt corrupti ratione dolorum.</p>
+                            <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    </div>
+                                <img src="images/137.jpg" alt="">
+                                <h3>Grace</h3>
+                        </div>
+                        <div class="col-3">
+                                <i class="fa fa-quote-left"></i>
+                                        <p>I love everything i purchase from PoshVille. Sizes are great. Quality is great. Love love love itNO hassle shopping. i will definitely be coming back. Fugit, iure cupiditate? Incidunt and opne corrupti ratione dolorum.</p>
+                                        <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                </div>
+                                            <img src="images/835.jpg" alt="">
+                                            <h3>Olatejun</h3>
+                                    </div>
+        </div>
+    </div>
+</div>
+<!--brands -->
+<div class="brands">
+    <h2 class="title">Our Partners</h2>
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <a href="https://www.godrej.com/" target="_blank"><img src="images/logo-godrej.png"></a>
+            </div>
+            <div class="col-5">
+                <a href="https://www.oppo.com/ng/" target="_blank"><img src="images/logo-oppo.png"></a>
+            </div>
+            <div class="col-5">
+                <a href="https://www.coca-cola.com/" target="_blank"><img src="images/logo-coca-cola.png"></a>
+            </div>
+            <div class="col-5">
+                <a href="https://www.paypal.com/ng/home" target="_blank"><img src="images/logo-paypal.png"></a>
+            </div>
+            <div class="col-5">
+                <a href="https://www.philips.ng/" target="_blank"><img src="images/logo-philips.png"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-2">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            
+            <div class="footer-col-3">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright"> Copyright &copy; 2023 - PoshVille</p>
+    </div>
+    <a href="#" class="arrow"><i><img src="images/up-arrow.png" alt="" width="50px"></i></a>
+</div>
+<!-- ---------JS for data and ------------ -->
+<script src="main.js"></script>
+<!-- <script src="Data.js"></script> -->
+<script src="cart.js"></script>
+<!-- js for toogle menu-->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxheight="0px";
+    function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight == "200px";
+    }
+    else{
+        MenuItems.style.maxHeight = "0px";
+        }   
+    }
+</script>
+</body>
+</html>

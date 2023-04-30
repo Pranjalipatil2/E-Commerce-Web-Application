@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Us</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!---<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">-->
+    <script src="https://kit.fontawesome.com/43124feaf5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+                <div class="logo">
+                  <a href="index.html">
+                    <img src="images/pv logo.jpg" width="80px">
+                  </a>
+                    
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a><li>
+                        <li><a href="products.html">Product</a><li>
+                        <li><a href="about.html">About</a><li>
+                        <li><a href="contact.html">Contact</a><li>
+                        <li><a href="account.html">Account</a><li>
+                         
+                    </ul>
+                </nav>
+                <a href="cart.html">
+                  <div class="cart">
+                    <i class="bi bi-cart2"></i>
+                    <div id="cartAmount" class="cartAmount">0</div>
+                  </div>
+                </a>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div> 
+    </div>
+
+    <div class="wrapper">
+        <div class="testimonial">
+            <article>
+                <div>
+                    <img src="images/pv logo.jpg" alt="posh ville logo" >
+                </div>
+                <h3>About Us</h3>
+                <blockquote>
+                    Our team works around the clock to bring you the world's hottest fashion styles. We forecast fashion trends before anyone else, and introduce 1,000+ new arrivlas to our site every week! We listen to our customers and are always finding innovative ways to improve and deliver the most coveted  styles at a moment's notice. it's our top priority to ensure that our community always feels confident and included. We've revolutionized the fashion industry and dominated the market with our PoshVille-Specials, PoschVille- CURVE, PoshVille-MEN's, and an up-and-coming PoshVilleKids line. We cater to anyone who has affinity for fashion. Regardless of shape, personal style, or gender, we're here to fit everyone.
+                    Today, PoshVille's mission remains the same-making affordable fashion accessible to customers around the world.
+                </blockquote>
+                <h3>Why Choose Us</h3>
+                <blockquote> PoshVille is one of the Nigeria's leading quick-to-market apparel and lifestyle brand. We are renowned for delivering the season's most wanted stlyes to millions of people nationwide.
+                </blockquote>
+            </article>
+        </div>
+
+    </div> 
+    <!-- ---------- Footer  ----------------- -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-2">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                
+                <div class="footer-col-3">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright"> Copyright &copy; 2023 - PoshVille</p>
+        </div>
+        <a href="#" class="arrow"><i><img src="images/up-arrow.png" alt="" width="50px"></i></a>
+    </div>
+     
+</body>
+
+<script src="main.js"></script>
+<script src="Data.js"></script>
+<script src="cart.js"></script>
+<!-- js for toogle menu-->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxheight="0px";
+    function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight == "200px";
+    }
+    else{
+        MenuItems.style.maxHeight = "0px";
+        }   
+    }
+</script>
+</html>
